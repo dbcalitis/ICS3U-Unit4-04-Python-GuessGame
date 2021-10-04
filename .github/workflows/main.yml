@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Check out Git repository
-        uses: actions/checkout@main
+        uses: actions/checkout@master
      
       - name: Run GitHub Super Linter
         uses: github/super-linter@main
